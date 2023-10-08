@@ -25,7 +25,7 @@ export default {
       try {
         const response = await axios.get(`https://api.unsplash.com/photos/${photoId}`, {
           headers: {
-            Authorization: "Client-ID 8PgXaCI8Df4alcaR_8wtoybfsVJYtNj5RZ_1DOnJ0v0",
+            Authorization: "Client-ID uj3HQGcBO4rhIzhvs0neDPnD5Uu0UstIRi_JIPpiXAo",
           },
         });
         this.photo = response.data;
