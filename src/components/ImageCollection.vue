@@ -7,7 +7,7 @@
           <router-link :to="'/photo/' + photo.id">
             <img :src="photo.urls.small" />
           </router-link>
-          <button @click="toggleFavorites(photo)" :class="{ 'added_to_favorites': isAddedToFavorites(photo) }" class="add_favorite_btn">
+          <button @click="toggleFavorites(photo)" :style="{ fill: isAddedToFavorites(photo) ? 'rgb(255, 0, 13)' : '#fff' }" class="add_favorite_btn">
             <unicon name="heart-alt" fill="inherit" />
           </button>
         </div>
