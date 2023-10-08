@@ -68,11 +68,11 @@ export default {
 }
 .navbar{
   display: flex;
+  font-size: 18px;
+  align-items: center;
 }
 .navbar *{
   display: flex;
-  align-items: center;
-  font-size: 18px;
 }
 .unicon{
   margin-right: 6px;
